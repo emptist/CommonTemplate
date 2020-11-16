@@ -8,21 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		48DB74932562481100EAD9E5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74922562481100EAD9E5 /* AppDelegate.swift */; };
-		48DB74952562481100EAD9E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74942562481100EAD9E5 /* ContentView.swift */; };
 		48DB74972562481A00EAD9E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DB74962562481A00EAD9E5 /* Assets.xcassets */; };
 		48DB749A2562481A00EAD9E5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48DB74992562481A00EAD9E5 /* Preview Assets.xcassets */; };
 		48DB749D2562481A00EAD9E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48DB749B2562481A00EAD9E5 /* Main.storyboard */; };
+		48DB74A82562485600EAD9E5 /* OptionalTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74A62562485600EAD9E5 /* OptionalTextField.swift */; };
+		48DB74A92562485600EAD9E5 /* PropertyLoopable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74A72562485600EAD9E5 /* PropertyLoopable.swift */; };
+		48DB74C5256248E500EAD9E5 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74AB256248E500EAD9E5 /* UserData.swift */; };
+		48DB74C6256248E500EAD9E5 /* TabsAndNaviTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74AE256248E500EAD9E5 /* TabsAndNaviTabs.swift */; };
+		48DB74C7256248E500EAD9E5 /* TabsAndNaviDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74AF256248E500EAD9E5 /* TabsAndNaviDetails.swift */; };
+		48DB74C8256248E500EAD9E5 /* NaviAndDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74B0256248E500EAD9E5 /* NaviAndDetails.swift */; };
+		48DB74C9256248E500EAD9E5 /* NaviAndTabs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74B1256248E500EAD9E5 /* NaviAndTabs.swift */; };
+		48DB74CA256248E500EAD9E5 /* ElementView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74B3256248E500EAD9E5 /* ElementView.swift */; };
+		48DB74CB256248E500EAD9E5 /* ElementTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74B4256248E500EAD9E5 /* ElementTab.swift */; };
+		48DB74CC256248E500EAD9E5 /* ElementMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74B6256248E500EAD9E5 /* ElementMain.swift */; };
+		48DB74CD256248E500EAD9E5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74B7256248E500EAD9E5 /* MainView.swift */; };
+		48DB74CE256248E500EAD9E5 /* IndicatorMain.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74B8256248E500EAD9E5 /* IndicatorMain.swift */; };
+		48DB74CF256248E500EAD9E5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74BA256248E500EAD9E5 /* ContentView.swift */; };
+		48DB74D0256248E500EAD9E5 /* NavigationTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74BC256248E500EAD9E5 /* NavigationTab.swift */; };
+		48DB74D1256248E500EAD9E5 /* NavigationPrimary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74BD256248E500EAD9E5 /* NavigationPrimary.swift */; };
+		48DB74D2256248E500EAD9E5 /* ElementRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74BE256248E500EAD9E5 /* ElementRow.swift */; };
+		48DB74D3256248E500EAD9E5 /* ElementList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74BF256248E500EAD9E5 /* ElementList.swift */; };
+		48DB74D4256248E500EAD9E5 /* LabeledTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74C0256248E500EAD9E5 /* LabeledTextField.swift */; };
+		48DB74D5256248E500EAD9E5 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74C2256248E500EAD9E5 /* Dimension.swift */; };
+		48DB74D6256248E500EAD9E5 /* EvalIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74C3256248E500EAD9E5 /* EvalIndicator.swift */; };
+		48DB74D7256248E500EAD9E5 /* NamedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74C4256248E500EAD9E5 /* NamedEntity.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48DB748F2562481100EAD9E5 /* CommonTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CommonTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		48DB74922562481100EAD9E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		48DB74942562481100EAD9E5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		48DB74962562481A00EAD9E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48DB74992562481A00EAD9E5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		48DB749C2562481A00EAD9E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48DB749E2562481A00EAD9E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		48DB749F2562481A00EAD9E5 /* CommonTemplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CommonTemplate.entitlements; sourceTree = "<group>"; };
+		48DB74A62562485600EAD9E5 /* OptionalTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionalTextField.swift; sourceTree = "<group>"; };
+		48DB74A72562485600EAD9E5 /* PropertyLoopable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PropertyLoopable.swift; sourceTree = "<group>"; };
+		48DB74AB256248E500EAD9E5 /* UserData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		48DB74AE256248E500EAD9E5 /* TabsAndNaviTabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsAndNaviTabs.swift; sourceTree = "<group>"; };
+		48DB74AF256248E500EAD9E5 /* TabsAndNaviDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabsAndNaviDetails.swift; sourceTree = "<group>"; };
+		48DB74B0256248E500EAD9E5 /* NaviAndDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviAndDetails.swift; sourceTree = "<group>"; };
+		48DB74B1256248E500EAD9E5 /* NaviAndTabs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NaviAndTabs.swift; sourceTree = "<group>"; };
+		48DB74B3256248E500EAD9E5 /* ElementView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementView.swift; sourceTree = "<group>"; };
+		48DB74B4256248E500EAD9E5 /* ElementTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementTab.swift; sourceTree = "<group>"; };
+		48DB74B6256248E500EAD9E5 /* ElementMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementMain.swift; sourceTree = "<group>"; };
+		48DB74B7256248E500EAD9E5 /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		48DB74B8256248E500EAD9E5 /* IndicatorMain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndicatorMain.swift; sourceTree = "<group>"; };
+		48DB74BA256248E500EAD9E5 /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		48DB74BC256248E500EAD9E5 /* NavigationTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationTab.swift; sourceTree = "<group>"; };
+		48DB74BD256248E500EAD9E5 /* NavigationPrimary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationPrimary.swift; sourceTree = "<group>"; };
+		48DB74BE256248E500EAD9E5 /* ElementRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementRow.swift; sourceTree = "<group>"; };
+		48DB74BF256248E500EAD9E5 /* ElementList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementList.swift; sourceTree = "<group>"; };
+		48DB74C0256248E500EAD9E5 /* LabeledTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LabeledTextField.swift; sourceTree = "<group>"; };
+		48DB74C2256248E500EAD9E5 /* Dimension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dimension.swift; sourceTree = "<group>"; };
+		48DB74C3256248E500EAD9E5 /* EvalIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvalIndicator.swift; sourceTree = "<group>"; };
+		48DB74C4256248E500EAD9E5 /* NamedEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedEntity.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +95,11 @@
 		48DB74912562481100EAD9E5 /* CommonTemplate */ = {
 			isa = PBXGroup;
 			children = (
+				48DB74AC256248E500EAD9E5 /* View */,
+				48DB74AA256248E500EAD9E5 /* View Model */,
+				48DB74C1256248E500EAD9E5 /* Model */,
+				48DB74A52562485600EAD9E5 /* Extension */,
 				48DB74922562481100EAD9E5 /* AppDelegate.swift */,
-				48DB74942562481100EAD9E5 /* ContentView.swift */,
 				48DB74962562481A00EAD9E5 /* Assets.xcassets */,
 				48DB749B2562481A00EAD9E5 /* Main.storyboard */,
 				48DB749E2562481A00EAD9E5 /* Info.plist */,
@@ -72,6 +115,95 @@
 				48DB74992562481A00EAD9E5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		48DB74A52562485600EAD9E5 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74A62562485600EAD9E5 /* OptionalTextField.swift */,
+				48DB74A72562485600EAD9E5 /* PropertyLoopable.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		48DB74AA256248E500EAD9E5 /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74AB256248E500EAD9E5 /* UserData.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		48DB74AC256248E500EAD9E5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74AD256248E500EAD9E5 /* Sample View */,
+				48DB74B2256248E500EAD9E5 /* Details */,
+				48DB74B5256248E500EAD9E5 /* Instance View */,
+				48DB74B9256248E500EAD9E5 /* Main View */,
+				48DB74BB256248E500EAD9E5 /* NavigationSider */,
+				48DB74C0256248E500EAD9E5 /* LabeledTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		48DB74AD256248E500EAD9E5 /* Sample View */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74AE256248E500EAD9E5 /* TabsAndNaviTabs.swift */,
+				48DB74AF256248E500EAD9E5 /* TabsAndNaviDetails.swift */,
+				48DB74B0256248E500EAD9E5 /* NaviAndDetails.swift */,
+				48DB74B1256248E500EAD9E5 /* NaviAndTabs.swift */,
+			);
+			path = "Sample View";
+			sourceTree = "<group>";
+		};
+		48DB74B2256248E500EAD9E5 /* Details */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74B3256248E500EAD9E5 /* ElementView.swift */,
+				48DB74B4256248E500EAD9E5 /* ElementTab.swift */,
+			);
+			path = Details;
+			sourceTree = "<group>";
+		};
+		48DB74B5256248E500EAD9E5 /* Instance View */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74B6256248E500EAD9E5 /* ElementMain.swift */,
+				48DB74B7256248E500EAD9E5 /* MainView.swift */,
+				48DB74B8256248E500EAD9E5 /* IndicatorMain.swift */,
+			);
+			path = "Instance View";
+			sourceTree = "<group>";
+		};
+		48DB74B9256248E500EAD9E5 /* Main View */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74BA256248E500EAD9E5 /* ContentView.swift */,
+			);
+			path = "Main View";
+			sourceTree = "<group>";
+		};
+		48DB74BB256248E500EAD9E5 /* NavigationSider */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74BC256248E500EAD9E5 /* NavigationTab.swift */,
+				48DB74BD256248E500EAD9E5 /* NavigationPrimary.swift */,
+				48DB74BE256248E500EAD9E5 /* ElementRow.swift */,
+				48DB74BF256248E500EAD9E5 /* ElementList.swift */,
+			);
+			path = NavigationSider;
+			sourceTree = "<group>";
+		};
+		48DB74C1256248E500EAD9E5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48DB74C2256248E500EAD9E5 /* Dimension.swift */,
+				48DB74C3256248E500EAD9E5 /* EvalIndicator.swift */,
+				48DB74C4256248E500EAD9E5 /* NamedEntity.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,8 +277,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				48DB74952562481100EAD9E5 /* ContentView.swift in Sources */,
+				48DB74CE256248E500EAD9E5 /* IndicatorMain.swift in Sources */,
+				48DB74A92562485600EAD9E5 /* PropertyLoopable.swift in Sources */,
+				48DB74D7256248E500EAD9E5 /* NamedEntity.swift in Sources */,
+				48DB74D1256248E500EAD9E5 /* NavigationPrimary.swift in Sources */,
+				48DB74D2256248E500EAD9E5 /* ElementRow.swift in Sources */,
+				48DB74CD256248E500EAD9E5 /* MainView.swift in Sources */,
+				48DB74C9256248E500EAD9E5 /* NaviAndTabs.swift in Sources */,
+				48DB74A82562485600EAD9E5 /* OptionalTextField.swift in Sources */,
+				48DB74D0256248E500EAD9E5 /* NavigationTab.swift in Sources */,
+				48DB74C5256248E500EAD9E5 /* UserData.swift in Sources */,
+				48DB74C7256248E500EAD9E5 /* TabsAndNaviDetails.swift in Sources */,
+				48DB74D5256248E500EAD9E5 /* Dimension.swift in Sources */,
 				48DB74932562481100EAD9E5 /* AppDelegate.swift in Sources */,
+				48DB74CC256248E500EAD9E5 /* ElementMain.swift in Sources */,
+				48DB74CB256248E500EAD9E5 /* ElementTab.swift in Sources */,
+				48DB74CF256248E500EAD9E5 /* ContentView.swift in Sources */,
+				48DB74D3256248E500EAD9E5 /* ElementList.swift in Sources */,
+				48DB74C8256248E500EAD9E5 /* NaviAndDetails.swift in Sources */,
+				48DB74C6256248E500EAD9E5 /* TabsAndNaviTabs.swift in Sources */,
+				48DB74CA256248E500EAD9E5 /* ElementView.swift in Sources */,
+				48DB74D4256248E500EAD9E5 /* LabeledTextField.swift in Sources */,
+				48DB74D6256248E500EAD9E5 /* EvalIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
