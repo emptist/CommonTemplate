@@ -14,6 +14,7 @@ struct ElementView<GeneralElement: NamedEntityWithSample>: View {
     var body: some View {
         VStack(alignment: .leading) {
             Group {
+                // -- TODO: add ForEach to loop for all properties in an object and visiualize them
                 Text("ID: \(userData.elements[userData.selectedIndex].id)")
                 
                 
