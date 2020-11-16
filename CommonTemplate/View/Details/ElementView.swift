@@ -40,6 +40,6 @@ struct ElementView<GeneralElement: NamedEntityWithSample>: View {
 
 //struct ElementView_Previews: PreviewProvider {
 //    static var previews: some View {
-//        ElementView<EvalIndicator>().environmentObject(UserData<EvalIndicator>())
+//        ElementView<Element>().environmentObject(UserData<Element>())
 //    }
 //}

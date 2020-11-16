@@ -119,7 +119,7 @@ final class UserData<GeneralElement: NamedEntityWithSample>: ObservableObject  {
 }
 
 
-extension EvalIndicator {
+extension Element {
 
     func writeReport(_ report: String, to filename: String) -> Void {
         do {

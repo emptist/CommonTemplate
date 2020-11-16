@@ -28,6 +28,6 @@ struct ElementTab<GeneralElement: NamedEntityWithSample>: View {
 
 struct ElementTab_Previews: PreviewProvider {
     static var previews: some View {
-        ElementTab<EvalIndicator>().environmentObject(UserData<EvalIndicator>())
+        ElementTab<Element>().environmentObject(UserData<Element>())
     }
 }

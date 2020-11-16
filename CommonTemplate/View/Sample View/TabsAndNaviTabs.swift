@@ -33,6 +33,6 @@ struct TabsAndNaviTabs<GeneralElement: NamedEntityWithSample>: View {
 
 struct TabsAndNaviTabs_Previews: PreviewProvider {
     static var previews: some View {
-        TabsAndNaviTabs<EvalIndicator>().environmentObject(UserData<EvalIndicator>())
+        TabsAndNaviTabs<Element>().environmentObject(UserData<Element>())
     }
 }
