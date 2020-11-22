@@ -19,6 +19,7 @@ protocol NamedEntity: Codable,Identifiable,Hashable,Loopable {
 
 protocol NamedEntityWithSample: NamedEntity {
     static var sampleInstance: Self {get}
+    
 }
 
 
