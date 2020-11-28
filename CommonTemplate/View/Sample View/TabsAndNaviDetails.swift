@@ -31,6 +31,6 @@ struct TabsAndNaviDetails<GeneralElement: NamedEntityWithSample>: View {
 
 struct TabsAndNaviDetails_Previews: PreviewProvider {
     static var previews: some View {
-        TabsAndNaviDetails<Element>().environmentObject(UserData<Element>())
+        TabsAndNaviDetails<GeneralItem>().environmentObject(UserData<GeneralItem>())
     }
 }

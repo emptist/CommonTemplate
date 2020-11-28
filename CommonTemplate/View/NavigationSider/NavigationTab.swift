@@ -28,6 +28,6 @@ struct NavigationTab<GeneralElement: NamedEntityWithSample>: View {
 
 struct NavigationTab_Preview: PreviewProvider {
     static var previews: some View {
-        NavigationTab<Element>().environmentObject(UserData<Element>())
+        NavigationTab<GeneralItem>().environmentObject(UserData<GeneralItem>())
     }
 }

@@ -32,7 +32,7 @@
 		48DB74D5256248E500EAD9E5 /* Dimension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74C2256248E500EAD9E5 /* Dimension.swift */; };
 		48DB74D6256248E500EAD9E5 /* EvalIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74C3256248E500EAD9E5 /* EvalIndicator.swift */; };
 		48DB74D7256248E500EAD9E5 /* NamedEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74C4256248E500EAD9E5 /* NamedEntity.swift */; };
-		48DB74DA25624F5200EAD9E5 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74D925624F5200EAD9E5 /* Element.swift */; };
+		48DB74DA25624F5200EAD9E5 /* GeneralItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DB74D925624F5200EAD9E5 /* GeneralItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,7 +65,7 @@
 		48DB74C3256248E500EAD9E5 /* EvalIndicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EvalIndicator.swift; sourceTree = "<group>"; };
 		48DB74C4256248E500EAD9E5 /* NamedEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NamedEntity.swift; sourceTree = "<group>"; };
 		48DB74D825624DCA00EAD9E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		48DB74D925624F5200EAD9E5 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		48DB74D925624F5200EAD9E5 /* GeneralItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -204,7 +204,7 @@
 			isa = PBXGroup;
 			children = (
 				48DB74C2256248E500EAD9E5 /* Dimension.swift */,
-				48DB74D925624F5200EAD9E5 /* Element.swift */,
+				48DB74D925624F5200EAD9E5 /* GeneralItem.swift */,
 				48DB74C4256248E500EAD9E5 /* NamedEntity.swift */,
 				48DB74C3256248E500EAD9E5 /* EvalIndicator.swift */,
 			);
@@ -303,7 +303,7 @@
 				48DB74C6256248E500EAD9E5 /* TabsAndNaviTabs.swift in Sources */,
 				48DB74CA256248E500EAD9E5 /* ElementView.swift in Sources */,
 				48DB74D4256248E500EAD9E5 /* LabeledTextField.swift in Sources */,
-				48DB74DA25624F5200EAD9E5 /* Element.swift in Sources */,
+				48DB74DA25624F5200EAD9E5 /* GeneralItem.swift in Sources */,
 				48DB74D6256248E500EAD9E5 /* EvalIndicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

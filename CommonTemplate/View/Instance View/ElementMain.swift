@@ -24,7 +24,7 @@ struct ElementMain<GeneralElement: NamedEntityWithSample>: View {
 
 struct ElementMain_Previews: PreviewProvider {
     static var previews: some View {
-        MainView<Element>().environmentObject(UserData<Element>())
+        MainView<GeneralItem>().environmentObject(UserData<GeneralItem>())
     }
 }
 

@@ -52,7 +52,7 @@ struct NavigationPrimary<GeneralElement: NamedEntityWithSample>: View {
 
 struct NavigationPrimary_Previews: PreviewProvider {
     static var previews: some View {
-        let userData = UserData<Element>()
-        return NavigationPrimary<Element>().environmentObject(userData)
+        let userData = UserData<GeneralItem>()
+        return NavigationPrimary<GeneralItem>().environmentObject(userData)
     }
 }

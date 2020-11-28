@@ -15,7 +15,6 @@ struct TabsAndNaviTabs<GeneralElement: NamedEntityWithSample>: View {
     var body: some View {
         //VStack(alignment: .leading, spacing: 12) {
         VStack {
-            //DetailHead(elementIndex:selectedIndex)
             
             TabView {
                 ElementMain<GeneralElement>()
@@ -33,6 +32,6 @@ struct TabsAndNaviTabs<GeneralElement: NamedEntityWithSample>: View {
 
 struct TabsAndNaviTabs_Previews: PreviewProvider {
     static var previews: some View {
-        TabsAndNaviTabs<Element>().environmentObject(UserData<Element>())
+        TabsAndNaviTabs<GeneralItem>().environmentObject(UserData<GeneralItem>())
     }
 }

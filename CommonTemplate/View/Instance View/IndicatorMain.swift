@@ -11,16 +11,16 @@ import SwiftUI
 
 struct IndicatorMain: View {
     var body: some View {
-//        TabsAndNaviDetails<Element>()
-//            .environmentObject(UserData<Element>())
+//        TabsAndNaviDetails<GeneralItem>()
+//            .environmentObject(UserData<GeneralItem>())
 
-        ElementMain<Element>().environmentObject(UserData<Element>())
+        ElementMain<GeneralItem>().environmentObject(UserData<GeneralItem>())
     }
 }
 
 struct IndicatorMain_Previews: PreviewProvider {
     static var previews: some View {
-        IndicatorMain().environmentObject(UserData<Element>())
+        IndicatorMain().environmentObject(UserData<GeneralItem>())
     }
 }
 

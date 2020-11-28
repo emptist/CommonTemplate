@@ -22,7 +22,7 @@ struct Dimension: NamedEntity {//Codable,Identifiable,Hashable,Loopable {
     
     // exclusive
     var dimensions: Array<Dimension>? = Array<Dimension>()
-    var indicators: Array<Element>? = Array<Element>()
+    var indicators: Array<GeneralItem>? = Array<GeneralItem>()
     
     var pinyin: String {
         name.applyingTransform(.toLatin, reverse: false) ?? name

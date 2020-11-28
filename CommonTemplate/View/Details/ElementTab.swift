@@ -19,7 +19,8 @@ struct ElementTab<GeneralElement: NamedEntityWithSample>: View {
             
             TabView {
                 ElementView<GeneralElement>()
-                    .tabItem {Text("\(userData.elements[userData.selectedIndex].name)")}
+                //Text("none")
+                    .tabItem {Text("\(userData.selectedElement?.name ?? "none")")}
                     //.padding()
             }
         }
@@ -28,6 +29,6 @@ struct ElementTab<GeneralElement: NamedEntityWithSample>: View {
 
 struct ElementTab_Previews: PreviewProvider {
     static var previews: some View {
-        ElementTab<Element>().environmentObject(UserData<Element>())
+        ElementTab<GeneralItem>().environmentObject(UserData<GeneralItem>())
     }
 }
