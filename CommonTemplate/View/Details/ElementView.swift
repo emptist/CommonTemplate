@@ -26,8 +26,3 @@ struct ElementView<GeneralElement: NamedEntityWithSample>: View {
     }
 }
 
-//struct ElementView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        ElementView<GeneralItem>().environmentObject(UserData<Element>())
-//    }
-//}
